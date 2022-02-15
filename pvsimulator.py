@@ -49,6 +49,6 @@ class PVSimulator:
             return None
 
 
-#if __name__ == '__main':
-meter = Meter().home_consumption()
-PVSimulator(meter).calculation()
+if __name__ == '__main__':
+    meter = Meter().home_consumption()
+    PVSimulator(meter).calculation()
