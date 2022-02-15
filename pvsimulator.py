@@ -45,10 +45,10 @@ class PVSimulator:
             return buy
         else:
             with open("simulator.txt", 'a') as f:
-                f.write(f"{timestamp} your PV production ({current_power}W) and consumption ({self.meter_value}W) are equal \n")
-            return current_power
+                f.write(f"{timestamp} your PV production ({current_power}W) and consumption ({self.meter_value}W) are equal\n")
+            return None
 
 
-if __name__ == '__main':
-    meter1 = Meter().home_consumption()
-    PVSimulator(meter1).calculation()
+#if __name__ == '__main':
+meter = Meter().home_consumption()
+PVSimulator(meter).calculation()
