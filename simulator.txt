@@ -3,3 +3,7 @@ On Tuesday, February 15, 2022 at 01 o'clock your PV production is 0 and consumpt
 On Tuesday, February 15, 2022 at 01:18 o'clock your PV production is 0 and consumption is 2736 - you need 2736W energy from the grid
 On Tuesday, February 15, 2022 at 01:43 o'clock your PV production is 0W and consumption is 1513W - you need 1513W energy from the grid
 On Tuesday, February 15, 2022 at 11:42 o'clock your PV production is 2150W and consumption is 7257W - you need 5107W energy from the grid
+On Tuesday, February 15, 2022 at 20:23 o'clock your PV production is 200W and consumption is 2757W - you need 2557W energy from the grid
+On Tuesday, February 15, 2022 at 20:23 o'clock your PV production is 200W and consumption is 2109W - you need 1909W energy from the grid
+On Tuesday, February 15, 2022 at 20:23 o'clock your PV production is 200W and consumption is 397W - you need 197W energy from the grid
+On Tuesday, February 15, 2022 at 20:24 o'clock your PV production is 200W and consumption is 969W - you need 769W energy from the grid
