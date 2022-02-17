@@ -11,13 +11,14 @@ power_val = np.array([0, 0, 400, 1600, 2700, 3200, 3000, 2000, 1000, 200, 0, 0])
 plt.scatter(exp_hour, power_val)
 plt.show()'''
 
-# Find the current hour to find out the power generation at that time
-now = datetime.datetime.now()
-timestamp = now.strftime("On %A, %B %d, %Y at %H:%M o'clock")
-hour = now.hour
-
 # Random meter value - during the day (09:00 - 18:00) the energy consumption is supposed to be higher than night
 class Meter:
+
+    def get_current_hour(self):
+        # Find the current hour to find out the power generation at that time
+        now = datetime.datetime.now()
+        timestamp = now.strftime("On %A, %B %d, %Y at %H:%M o'clock")
+        hour = now.hour
     def home_consumption(self):
         if 9 <= hour <= 18:
             return random.randint(3000,9000)
