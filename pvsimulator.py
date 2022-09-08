@@ -18,9 +18,10 @@ class Meter:
     def home_consumption(self):
         hour = self.get_current_hour()
         if 9 <= hour <= 18:
-            return random.randint(3000,9000)
+            return random.randint(3000, 9000)
         else:
-            return random.randint(0,2999)
+            return random.randint(0, 2999)
+
 
 # Simulator to calculate energy comparison
 class PVSimulator(Meter):
